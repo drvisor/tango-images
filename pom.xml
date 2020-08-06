@@ -4,9 +4,27 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>com.drvisor</groupId>
-    <version>1.0-SNAPSHOT</version>
+    <groupId>com.github.drvisor</groupId>
     <artifactId>tango-images</artifactId>
+    <version>1.0-SNAPSHOT</version>
+    <packaging>jar</packaging>
+
+    <name>Tango-images</name>
+    <description>Adapter to use tango-icon-theme in convenient way</description>
+    <url>https://github.com/drvisor/tango-images</url>
+
+    <scm>
+        <url>https://github.com/drvisor/tango-images.git</url>
+        <connection>scm:git:https://github.com/drvisor/tango-images.git</connection>
+    </scm>
+    <developers>
+        <developer>
+            <id>owner</id>
+            <name>Mikhail Malinin</name>
+            <email>drvisor@gmail.com</email>
+            <timezone>UTC+3</timezone>
+        </developer>
+    </developers>
 
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
