@@ -6,7 +6,7 @@
 
     <groupId>com.github.drvisor</groupId>
     <artifactId>tango-images</artifactId>
-    <version>1.0-SNAPSHOT</version>
+    <version>2020.8.0</version>
     <packaging>jar</packaging>
 
     <name>Tango-images</name>
@@ -32,6 +32,16 @@
         <maven.compiler.target>11</maven.compiler.target>
     </properties>
 
+    <distributionManagement>
+        <snapshotRepository>
+            <id>sonatype_snapshots</id>
+            <url>https://oss.sonatype.org/content/repositories/snapshots</url>
+        </snapshotRepository>
+        <repository>
+            <id>sonatype_staging</id>
+            <url>https://oss.sonatype.org/service/local/staging/deploy/maven2</url>
+        </repository>
+    </distributionManagement>
 
     <dependencies>
         <dependency>
